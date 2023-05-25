@@ -52,7 +52,6 @@ font-family: 'Poppins', sans-serif;
     text-transform: none;
 }
 
-
     
 .hero {
     background-color: white;
@@ -151,36 +150,6 @@ p {
     padding: 14px;
 }
 
-.images-inicio img {
-
-    display: inline-block;
-    height: 400px;
-    width: 48%;
-    object-fit: cover;
-    padding: 15px;
-    position: relative;
-}
-
-.boton a {
-    text-decoration: none;
-    display: block;
-    position: relative;
-    text-align: center;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-}
-
-.contacto {
-    height: 300px;
-    width: 40%;
-    background-color: rgb(190, 187, 170);
-}
-
-.contacto ul li {
-    padding: 10px;
-    text-align: left;
-}
 
 .proyecto img {
     display: inline-block;
