@@ -13,45 +13,6 @@ font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
-/* menú de nevegación */
-.menu-navegador {
-    background-color: #000000;
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu-navegador a {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/*Corrección preentrega 1: El uso de position debe ser reemplazado por flex/grid según corresponda para la siguiente entrega:*/
-.menu-navegador a img{
-    width: 140px;
-    height: auto;
-    padding: 20;
-}
-
-.menu-navegador ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.menu-navegador ul li {
-    padding: 20px;
-}
-
-.menu-navegador ul li a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    text-transform: none;
-}
-
     /*ajuste de la altura de las imágenes del carrusel*/
     .carousel-inner{
         height: 400px
@@ -63,6 +24,7 @@ font-family: 'Poppins', sans-serif;
         object-fit: cover;
     }
 
+    
 .hero {
     background-color: white;
     /* display: inline-block; */
@@ -97,22 +59,7 @@ p {
     /*modificado*/
 }
 
-.titulo1 {
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding: 10px;
-}
 
-.titulo2 {
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 900;
-    text-align: center;
-}
 
 .texto {
     color: white;
@@ -161,38 +108,33 @@ p {
 }
 
 
-.proyecto img {
-    display: inline-block;
-    height: 400px;
-    width: 48%;
+.proyecto{
+    height: 200px;
+    width: auto;
     object-fit: cover;
     padding: 15px;
-    position: relative;
+ 
 }
 
 .footer {
-    padding: 15px;
-    background-color: #5d6366;
-    height: 120px;
+    padding:15px;
+    background-color: #abb3b8;
+    height: auto;
     width: 100%;
     text-align: center;
 }
 
-.footer img {
-    width: 150px;
-    height: auto;
-    text-align: center;
-}
 
-.footer a {
-    text-decoration: none;
-    display: inline;
-    text-align: center;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-}
+.footer a i {
+     font-size: 35px;
+     color: #000000;
+     padding: 15px;
+     }
 
+     .footer a i:hover{
+        color: aliceblue;
+     }
+        
 .cajas {
     padding: 50px 0;
     display: flex;
@@ -255,7 +197,7 @@ p {
     text-align: center;
 }
 
-/*grid*/
+/* grid
 .grilla {
     border: 3px solid black;
     display: grid;
@@ -316,4 +258,4 @@ p {
 
 .grilla__hijo p {
     font-size: 60px;
-}
+} */
