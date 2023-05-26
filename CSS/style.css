@@ -25,40 +25,6 @@ font-family: 'Poppins', sans-serif;
     }
 
     
-.hero {
-    background-color: white;
-    /* display: inline-block; */
-    width: 100%;
-    display: flex;
-    object-fit: cover;
-}
-
-.hero img {
-    display: inline-block;
-    width: 100%;
-    min-height: 600px;
-    object-fit: cover;
-}
-
-.hero-content {
-    display: inline-block;
-    width: 100%;
-    padding: 0px;
-    position: relative;
-    top: 100px;
-}
-
-/*Corrección preentrega 1: Cuidado con el uso de padding y/o margin con valores altos, ya que pueden romper el responsive a futuro:*/
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 600;
-    text-align: justify;
-    padding: 20px 30px;
-    /*modificado*/
-}
-
 
 
 .texto {
@@ -69,52 +35,19 @@ p {
     text-align: center;
 }
 
-
-.nota {
-    background-color: #000000;
-    color: white;
-    padding: 50px 100px;
-    margin: 20px 30px;
-    text-align: center;
-}
-
 /*cards*/
-.cards {
-    background-color: rgb(180, 177, 173);
-    padding: 30px 15px;
-    text-align: center;
-}
-
-.card-body img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    /*para evitar que se deforma la imagen*/
-}
 
 .card-body {
-    display: inline-block;
-    /*absorbe lo mejor de cada propiedad*/
-    width: 30%;
-    text-align: left;
+    text-align: center;
     background-color: #8c9191;
-    margin: 15px;
-}
-
-.card-body h2,
-.card-body p {
-    /*aplica las mismas propiedades a dos clases al mismo tiempo*/
-    padding: 14px;
-}
-
+    }
 
 .proyecto{
-    height: 200px;
+    height: 400px;
     width: auto;
     object-fit: cover;
     padding: 15px;
- 
-}
+ }
 
 .footer {
     padding:15px;
@@ -135,127 +68,5 @@ p {
         color: aliceblue;
      }
         
-.cajas {
-    padding: 50px 0;
-    display: flex;
-    /* flex-direction:column;
-    flex-wrap: wrap; */
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 10px;
-}
 
-.caja {
-    background-color: #f3e2c8;
-    width: 30%;
-    gap: 10px;
-}
 
-.caja img {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-}
-
-.caja h2,
-.caja p {
-    padding: 14px;
-    color: black;
-}
-
-.c4 {
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.c4 img {
-    width: 50%;
-    height: 100%;
-    align-self: flex-start;
-}
-
-.caja_content {
-    width: 45%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-}
-
-.caja_content a {
-    text-decoration: none;
-    color: #eeee;
-    padding: 10px;
-    border: 2px solid #eeee;
-    border-radius: 7px;
-    align-self: flex-end;
-    width: 150px;
-    text-align: center;
-}
-
-/* grid
-.grilla {
-    border: 3px solid black;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3, 300px);
-    grid-template-areas:
-        "area1 area1 area1 area1 area1"
-        "area2 area2 area3 area4 area5"
-        "area2 area2 area3 area4 area5";
-    gap: 15px;
-    padding: 15px;
-    align-items: center;
-}
-
-.g1 {
-    grid-area: area1;
-}
-
-.g2 {
-    grid-area: area2;
-}
-
-.g3 {
-    grid-area: area3;
-}
-
-.g4 {
-    grid-area: area4;
-}
-
-.g5 {
-    grid-area: area5;
-}
-
-.g6 {
-    grid-area: are6;
-}
-
-.g7 {
-    grid-area: area7;
-}
-
-.g8 {
-    grid-area: area8;
-}
-
-.grilla__hijo {
-    width: 100%;
-    height: 100%;
-    background-color: #CC9544;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #eeee;
-    border: 3px solid green;
-
-}
-
-.grilla__hijo p {
-    font-size: 60px;
-} */
