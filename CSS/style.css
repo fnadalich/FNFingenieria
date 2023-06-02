@@ -13,18 +13,22 @@ font-family: 'Poppins', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
-    /*ajuste de la altura de las imágenes del carrusel*/
-    .carousel-inner{
-        height: 400px
-    }
+/*ajuste de la altura de las imágenes del carrusel*/
+.carousel-inner {
+    height: 400px
+}
 
-    .carousel-item img {
-        width: 100%;
-        height: 400px;
-        object-fit: cover;
-    }
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 
-    
+.logo-menu {
+    padding: 10px;
+    width: 220px;
+    height:auto 
+}
 
 
 .texto {
@@ -36,21 +40,26 @@ font-family: 'Poppins', sans-serif;
 }
 
 /*cards*/
+.imagenes-cards {
+    width: auto;
+    height: 400px;
+    object-fit: cover
+}
 
 .card-body {
     text-align: center;
     background-color: #8c9191;
-    }
+}
 
-.proyecto{
+.proyecto {
     height: 400px;
     width: auto;
     object-fit: cover;
     padding: 15px;
- }
+}
 
 .footer {
-    padding:15px;
+    padding: 15px;
     background-color: #abb3b8;
     height: auto;
     width: 100%;
@@ -59,14 +68,11 @@ font-family: 'Poppins', sans-serif;
 
 
 .footer a i {
-     font-size: 35px;
-     color: #000000;
-     padding: 15px;
-     }
+    font-size: 35px;
+    color: #000000;
+    padding: 15px;
+}
 
-     .footer a i:hover{
-        color: aliceblue;
-     }
-        
-
-
+.footer a i:hover {
+    color: aliceblue;
+}
