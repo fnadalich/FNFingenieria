@@ -1,78 +1,67 @@
-/*Corrección preentrega 1: El font-family debe ser importado de Google fonts (recomendado) o de manera local usando el archivo del font-family descargado, no podemos usar font locales ya que afecta al diseño del sitio si el usuario no tiene dicha font en su sistema operativo:*/
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,900;1,200;1,600;1,900&display=swap');
-
-/*llamar la fuente como:
-font-family: 'Poppins', sans-serif;
-*/
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,900;1,200;1,600;1,900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-/*ajuste de la altura de las imágenes del carrusel*/
-.carousel-inner {
-    height: 400px
-}
-
-.carousel-item img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+body {
+  background-color: rgba(161, 187, 255, 0.671);
 }
 
 .logo-menu {
-    padding: 10px;
-    width: 220px;
-    height:auto 
+  padding: 10px;
+  width: 220px;
+  height: auto;
 }
 
+.footer {
+  padding: 15px;
+  background-color: #0264f7;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
 
-.texto {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 50px;
-    font-weight: 600;
-    text-align: center;
+.footer a i {
+  font-size: 35px;
+  color: #000000;
+  padding: 15px;
+}
+
+.footer a i:hover {
+  color: aliceblue;
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 
 /*cards*/
 .imagenes-cards {
-    width: auto;
-    height: 400px;
-    object-fit: cover
+  width: auto;
+  height: 400px;
+  object-fit: cover;
 }
 
 .card-body {
-    text-align: center;
-    background-color: #8c9191;
+  text-align: center;
+  background-color: #8c9191;
 }
 
 .proyecto {
-    height: 400px;
-    width: auto;
-    object-fit: cover;
-    padding: 15px;
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+  padding: 15px;
 }
 
-.footer {
-    padding: 15px;
-    background-color: #abb3b8;
-    height: auto;
-    width: 100%;
-    text-align: center;
-}
-
-
-.footer a i {
-    font-size: 35px;
-    color: #000000;
-    padding: 15px;
-}
-
-.footer a i:hover {
-    color: aliceblue;
-}
+/*# sourceMappingURL=style.css.map */
