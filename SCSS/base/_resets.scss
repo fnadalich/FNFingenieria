@@ -4,9 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: $font;
 }
 
+//uso de gradiente en background
 body {
-    background-color: rgb(99, 66, 66);
+    background: linear-gradient($light-color, $main-color);
 }
+

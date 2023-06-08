@@ -1,0 +1,9 @@
+.card-nos {
+    @include flex(row,center, center, wrap,10px)
+   
+}
+
+.img-nos {
+    @include image (auto, 250px, cover)
+    
+}

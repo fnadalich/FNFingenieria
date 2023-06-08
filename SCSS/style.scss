@@ -1,7 +1,9 @@
 
 
 //import base
+@import "base/vars";
 @import "base/resets";
+@import "base/utilities";
 
 //import components
 @import "components/navbar";
@@ -9,7 +11,8 @@
 
 //import layout
 @import "layout/index";
-@import "layout/contacto";
-@import "layout/i+d";
 @import "layout/nosotros";
+@import "layout/i+d";
 @import "layout/proyectos";
+@import "layout/contacto";
+

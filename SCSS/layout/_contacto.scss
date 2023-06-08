@@ -1,19 +1,14 @@
 //
-.map-responsive{
+.map-responsive {
     display: flex;
     flex: end;
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
 
-}
-
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:500px;
-    width:600;
-    position:relative;
-
+    iframe {
+        height: 500px;
+        width: 600px;
+        }
 }

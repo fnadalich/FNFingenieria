@@ -1,0 +1,32 @@
+@mixin flex($direction, $justify, $align, $wrap, $gap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
+
+@mixin image($width, $height, $objet-fit) {
+    width: $width;
+    height: $height;
+    object-fit: $objet-fit;
+}
+
+@mixin fonts ($size,$family,$weight,$color) {
+font-size: $size;
+font-family: $family;
+font-weight: $weight;
+color: $color;
+}
+
+
+.escalar {
+    transition: 1s;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+        border-radius: 6%;
+        box-shadow: 0px 10px 10px -10px #eeee;
+    }
+}

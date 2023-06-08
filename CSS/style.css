@@ -7,12 +7,21 @@
 }
 
 body {
-  background-color: rgb(99, 66, 66);
+  background: linear-gradient(rgba(238, 238, 238, 0.9333333333), #0264f7);
+}
+
+.escalar {
+  transition: 1s;
+}
+.escalar:hover {
+  transform: scale(1.1, 1.1);
+  border-radius: 6%;
+  box-shadow: 0px 10px 10px -10px rgba(238, 238, 238, 0.9333333333);
 }
 
 .logo-menu {
-  padding: 10px;
-  width: 220px;
+  padding: 5px;
+  width: 60%;
   height: auto;
 }
 
@@ -24,15 +33,13 @@ body {
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
-
 .footer a i {
   font-size: 35px;
   color: #000000;
   padding: 15px;
 }
-
 .footer a i:hover {
-  color: aliceblue;
+  color: rgba(238, 238, 238, 0.9333333333);
 }
 
 .carousel-inner {
@@ -48,13 +55,46 @@ body {
 /*cards*/
 .imagenes-cards {
   width: auto;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
 }
 
 .card-body {
   text-align: center;
-  background-color: #8c9191;
+  background-color: rgba(238, 238, 238, 0.9333333333);
+}
+
+.img-index {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-nos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.img-nos {
+  width: auto;
+  height: 250px;
+  object-fit: cover;
+}
+
+.img-ID {
+  width: auto;
+  height: 400px;
+  object-fit: cover;
+}
+
+.img-proyecto {
+  width: auto;
+  height: 400px;
+  object-fit: cover;
 }
 
 .map-responsive {
@@ -65,20 +105,9 @@ body {
   position: relative;
   height: 0;
 }
-
 .map-responsive iframe {
-  left: 0;
-  top: 0;
   height: 500px;
-  width: 600;
-  position: relative;
-}
-
-.proyecto {
-  height: 400px;
-  width: auto;
-  object-fit: cover;
-  padding: 15px;
+  width: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */

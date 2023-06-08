@@ -3,19 +3,23 @@
 }
 
 .carousel-item img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+    @include image(100% , 400px , cover)
 }
+
 
 /*cards*/
 .imagenes-cards {
-    width: auto;
-    height: 400px;
-    object-fit: cover
+    @include image (auto , 300px , cover)
+
 }
 
 .card-body {
     text-align: center;
-    background-color: #8c9191;
+    background-color: $light-color;
 }
+
+.img-index {
+    @include image (auto, 300px, cover)
+    
+}
+

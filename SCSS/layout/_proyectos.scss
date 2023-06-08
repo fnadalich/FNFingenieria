@@ -1,6 +1,4 @@
-.proyecto {
-    height: 400px;
-    width: auto;
-    object-fit: cover;
-    padding: 15px;
+.img-proyecto {
+    @include image (auto, 400px, cover)
+    
 }
