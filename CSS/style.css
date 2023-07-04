@@ -41,6 +41,12 @@ body {
 .footer a i:hover {
   color: rgba(238, 238, 238, 0.9333333333);
 }
+.footer p {
+  font-size: 20px;
+  font-weight: normal;
+  color: rgba(238, 238, 238, 0.9333333333);
+  padding-top: 40px;
+}
 
 .carousel-inner {
   height: 400px;
@@ -99,15 +105,12 @@ body {
 
 .map-responsive {
   display: flex;
-  flex: end;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+  align-items: center;
 }
 .map-responsive iframe {
-  height: 500px;
+  height: 550px;
   width: 600px;
+  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

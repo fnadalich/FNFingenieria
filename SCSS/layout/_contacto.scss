@@ -1,14 +1,11 @@
 //
 .map-responsive {
     display: flex;
-    flex: end;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
-
+    align-items: center;
+    
     iframe {
-        height: 500px;
+        height: 550px;
         width: 600px;
+        border-radius: 10px;
         }
 }
